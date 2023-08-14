@@ -2,6 +2,9 @@
   text-align: center;
 }
 
-
+.carousel-image {
+  max-height: 500px;
+  object-fit: cover;
+}
 
 

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import bench from "./resources/pics/bench.jpg";
-import kiss from "./resources/pics/kiss.jpg";
-import kiss2 from "./resources/pics/kiss2.jpg";
+import bench from "../assets/bench.jpg"
+import kiss from "../assets/kiss.jpg"
+import kiss2 from "../assets/kiss2.jpg";
 
 
 function Rotator() {
@@ -9,7 +9,7 @@ function Rotator() {
     <Carousel fade data-bs-theme="dark">
       <Carousel.Item>
         <img
-          className="d-block w-80 img-fluid mx-auto"
+          className="d-block w-100 img-fluid mx-auto carousel-image"
           src={bench}
           alt="First slide"
         />
@@ -20,7 +20,7 @@ function Rotator() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img-fluid"
+          className="d-block w-100 img-fluid carousel-image"
           src={kiss}
           alt="Second slide"
         />
@@ -32,7 +32,7 @@ function Rotator() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img-fluid"
+          className="d-block w-100 img-fluid carousel-image"
           src={kiss2}
           alt="Third slide"
         />
