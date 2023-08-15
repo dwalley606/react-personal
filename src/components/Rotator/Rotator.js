@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import bench from "../assets/bench.jpg"
-import kiss from "../assets/kiss.jpg"
-import kiss2 from "../assets/kiss2.jpg";
+import bench from "./bench.jpg"
+import kiss from "./kiss.jpg"
+import kiss2 from "./kiss2.jpg";
 
 
 function Rotator() {

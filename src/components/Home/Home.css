@@ -1,0 +1,9 @@
+.selfie-image {
+    border-radius: 30px;
+  }
+
+  @media (max-width: 900px) {
+    .selfie-image {
+      width: 100%;
+    }
+  }
